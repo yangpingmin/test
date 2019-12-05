@@ -24,7 +24,6 @@ class Welcome extends CI_Controller {
 		var_export($_SERVER);
 		echo '------------------------';
 		echo $this->input->ip_address();
-		exit;
 		$this->load->view('welcome_message');
 	}
 }
